@@ -1,7 +1,7 @@
 
-document.getElementById("bell").onmouseover = function () {
-    var myList = document.getElementById("navSect");
+// document.getElementById("bell").onmouseover = function () {
+//     var myList = document.getElementById("navSect");
   
-    myList.innerHTML='';
+//     myList.innerHTML='';
 
-    };
+//     };
