@@ -87,8 +87,18 @@ font-size: .8rem;
 background-color: aliceblue;
   }
   
-  .daily{
-    margin-left: 10rem;
-    width: 100%;
-    height: auto;
+  .daily {
+    margin-left: 15rem;
+    /* width: 100%; */
+    /* height: auto; */
+    align-items: center;
+  }
+  .traffic-nav{
+    margin-left: 15rem;
+
+
+  }
+  h3{
+    margin-left: 15rem;
+
   }
