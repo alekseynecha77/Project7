@@ -80,4 +80,15 @@ svg{
     background-color: #90ee90;
     border-radius: 50%;
   }
+  .dashboard-header{
+display: flex;
+padding-left: 10em;
+font-size: .8rem;
+background-color: aliceblue;
+  }
   
+  .daily{
+    margin-left: 10rem;
+    width: 100%;
+    height: auto;
+  }
