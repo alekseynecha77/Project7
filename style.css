@@ -86,28 +86,47 @@ padding-left: 10em;
 font-size: .8rem;
   }
   
-.daily canvas,
-.traffic {
- display: grid;
- grid-template-areas:
-'header header'
-'main main right';
- gap:10px;
- padding: 10px;
-}
+.daily canvas{
+    display: grid;
+    grid-template-areas:
+   'header header header'
+   'nav nav .dashboard-header .dashboard-header'
+   'nav nav section section'
+   'nav nav div div' 
+   ;
+   grid-template-columns: 1fr 1fr;
+    gap:10px;
+    width: 100%;
 
-.traffic-nav li{
+}
+.traffic{
+    display: flex;
+    justify-content:flex-end;
+}
+.traffic-nav li
+{
     display: inline-flex;
+
     list-style-type: none;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 5px;
+    padding-right: 10px;
+    
 }
 
 
-.traffic-header{
-display: flex;
-margin: .5em auto;
-}
+
 .headline{
     background-color: #90ee90;
+}
+
+.traffic-header
+{ 
+float: right;
+}   
+
+
+canvas #daily-chart{
+  
+    width:100%;
+
 }
