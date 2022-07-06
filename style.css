@@ -92,14 +92,17 @@ font-size: .8rem;
  grid-template-areas:
 'header header'
 'main main right';
- gap: 10px;
+ gap:10px;
  padding: 10px;
 }
 
 .traffic-nav li{
     display: inline-flex;
     list-style-type: none;
+    justify-content: space-between;
+    margin: 0 auto;
 }
+
 
 .traffic-header{
 display: flex;
