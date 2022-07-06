@@ -87,7 +87,7 @@ font-size: .8rem;
   }
   
 .daily canvas,
-.traffic{
+.traffic {
  display: grid;
  grid-template-areas:
 'header header'
