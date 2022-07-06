@@ -84,21 +84,27 @@ svg{
 display: flex;
 padding-left: 10em;
 font-size: .8rem;
-background-color: aliceblue;
   }
   
-  .daily {
-    margin-left: 15rem;
-    /* width: 100%; */
-    /* height: auto; */
-    align-items: center;
-  }
-  .traffic-nav{
-    margin-left: 15rem;
+.daily canvas,
+.traffic{
+ display: grid;
+ grid-template-areas:
+'header header'
+'main main right';
+ gap: 10px;
+ padding: 10px;
+}
 
+.traffic-nav li{
+    display: inline-flex;
+    list-style-type: none;
+}
 
-  }
-  h3{
-    margin-left: 15rem;
-
-  }
+.traffic-header{
+display: flex;
+margin: .5em auto;
+}
+.headline{
+    background-color: #90ee90;
+}
