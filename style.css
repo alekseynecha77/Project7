@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(95, 162, 216);
-    grid-area: header;
+    grid-area: main-container;
 
 }
 main {
@@ -20,6 +20,7 @@ main {
 }
 svg {
     width: 50px;
+    cursor: pointer;
 }
 
 .header {
@@ -47,9 +48,8 @@ h1{
 nav {
     display: flex;
     flex-direction: column;
-    grid-area: navigation;
+    grid-area: nav;
     background-color: red;
-
 }
 
 
@@ -106,7 +106,7 @@ svg{
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-        "header"
-        "navigation"
+        "main-container "
+        "nav"
         "main";
 }
