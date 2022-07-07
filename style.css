@@ -45,7 +45,7 @@ h1{
 nav {
     display: flex;
     flex-direction: column;
-    grid-area: nav;
+    grid-area: navigation;
     background-color: red;
 }
 
@@ -103,12 +103,12 @@ svg{
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-        "header  "
-        "navigation"
-        " main";
+    "header "
+    "navigation"
+    "main";
 }
 
-.main-containerww{
+.main-container{
     grid-area: header;
 
 }
@@ -121,4 +121,12 @@ svg{
                 "navigation main"
                 "navigation main";
     }
+    
+}
+@media (min-width:296px) {
+
+nav{
+    flex-direction: row;
+}
+
 }
