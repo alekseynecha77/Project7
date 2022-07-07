@@ -123,10 +123,15 @@ svg{
     }
     
 }
-@media (min-width:296px) {
+
+@media (min-width:480px) {
 
 nav{
     flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(95, 162, 216);
 }
+
 
 }
