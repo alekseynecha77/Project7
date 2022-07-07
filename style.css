@@ -34,10 +34,9 @@ h1{
 
 
 .navigation{
-position: absolute;
-    top: 95px;
+    top: 90px;
     left:0;
-    width: 100px;
+    width: 90px;
     height: 100%;
     background: rgb(75, 106, 152);
     fill: rgb(240, 243, 245); 
@@ -109,7 +108,7 @@ svg{
         " main";
 }
 
-.main-container{
+.main-containerww{
     grid-area: header;
 
 }
