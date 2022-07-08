@@ -75,9 +75,9 @@
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             <button class="alert">Alert: You have unread messages</button>
         </div>
+ 
 
-
-            <!-- line graph charts -->
+            <!-- line graph charts  -->
             <section class="traffic">
 
                 <div class="traffic-header">
@@ -87,46 +87,49 @@
 
                         <div class="switch-toggle-switch-candy">
 
-                            <input id="week" name="view" type="radio" checked>
-                            <label for="week" onclick="">Hourly</label>
+                            <input id="hour" name="view" type="radio" checked>
+                            <label for="hour" onclick="">Hourly</label>
+    
+                            <input id="day" name="view" type="radio">
+                            <label for="day" onclick="">Daily</label>
+    
+                            <input id="week" name="view" type="radio">
+                            <label for="week" onclick="">Weekly</label>
     
                             <input id="month" name="view" type="radio">
-                            <label for="month" onclick="">Daily</label>
-    
-                            <input id="day" name="view" type="radio">
-                            <label for="day" onclick="">Weekly</label>
-    
-                            <input id="day" name="view" type="radio">
-                            <label for="day" onclick="">Monthly</label>
+                            <label for="month" onclick="">Monthly</label>
     
                             <a></a>
                         </div>
                     </fieldset>
                 </div>
             </section>
+            <div>
             <div class="widget-container-full">
                 <!-- element line graph will attach to -->
                 <canvas id="traffic-chart"></canvas>
             </div>
-            </section>
+            </div>
     
-            <section class="traffic">
+            <div class="traffic">
+             
                 <h3>DAILY TRAFFIC</h3>
                 <div class="widget-container-half">
                     <!-- element bar graph will attach to -->
                     <canvas id="daily-chart"></canvas>
                 </div>
-            </section>
+            </div>
     
-            <section class="mobile">
+            <div class="mobile">
                 <h3>MOBILE USERS</h3>
                 <div class="widget-container-half">
                     <!-- element bar graph will attach to -->
                     <canvas id="mobile-chart"></canvas>
                 </div>
-            </section>
+            </div>
     
- <!---- SOCIAL STATUS ---->
+ <!-- SOCIAL STATUS -->
+
             <section class="social-stats">
                 <h3>Social Stats</h3>
                 <div class="social-cc">
@@ -167,10 +170,13 @@
                     </div>
                 </div>
             </section>
+      
+
             <span class ="line-break"></span>
         
         
-            <!---- NEW MEMBERS WIDGET ---->
+            <!-- NEW MEMBERS WIDGET -->
+
             <div class=""></div>
             <section class='new-members'>
                 <h3>New Members</h3>
@@ -209,12 +215,17 @@
                             <a href="#">dan.oliver82@example.com</a>
                         </div>
                         <p>06/13/20</p> 
-                    </div>            
+                 
+                    </div>  
+          
                 </div>
+           
             </section>
+        </main> 
             <span class ="line-break"></span>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="chart.js"></script>
-</body>
 
+</body>
+ 
 </html>

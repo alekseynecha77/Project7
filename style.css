@@ -95,11 +95,7 @@ svg{
   }
 
 
-.traffic .mobile{
-text-align: center; 
-display: block;
 
-}
 
 
 .grid-container {
@@ -111,8 +107,10 @@ display: block;
      "navigation" 
     " main"; 
 }
-section{
+
+.widget-container-half{
     display: block;
+    
 }
 
 .main-container{
@@ -132,27 +130,16 @@ section{
     .nav{
         flex-direction: column;
     }
-    .mobile .traffic{
+
+    .traffic, .mobile{
         display: inline-block;
-
     }
 
-    .daily-traffic,
-    .mobile-traffic {
-        width: 50%;
-    }
-
-    .widget-container-half {
-        flex-direction: column;
-        justify-items: center;
-    }
-    .social-cc{
-        display: block;
-    }
 }
 
 @media (max-width: 1040px) {
-    section{
+
+    .traffic, .mobile {
         display: inline-block;
     }
 
