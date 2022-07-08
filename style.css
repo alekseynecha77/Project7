@@ -44,7 +44,7 @@ h1{
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     grid-area: navigation;
     background-color: red;
 }
@@ -103,9 +103,9 @@ svg{
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-    "header "
-    "navigation"
-    "main";
+     "header" 
+     "navigation" 
+    " main"; 
 }
 
 .main-container{
@@ -117,21 +117,26 @@ svg{
     .grid-container {
         grid-template-columns: 90px 1fr;
         grid-template-areas:
-            "header header"
+                "header header"
                 "navigation main"
                 "navigation main";
+    }
+    .nav{
+        flex-direction: column;
+
     }
     
 }
 
-@media (min-width:480px) {
-
-nav{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(95, 162, 216);
-}
 
 
-}
+/* @media (min-width:480px) { */
+/*  */
+/* nav{ */
+    /* flex-direction: row; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* background-color: rgb(95, 162, 216); */
+/* } */
+/*  */
+/*  */
