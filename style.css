@@ -144,7 +144,9 @@ section{
         flex-direction: column;
         justify-items: center;
     }
-    
+    .social-cc{
+        display: block;
+    }
 }
 
 @media (max-width: 1040px) {
