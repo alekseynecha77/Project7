@@ -134,19 +134,23 @@ svg{
         flex-direction: column;
     }
 
-    .traffic, .mobile {
-        display: inline-block;
-        }
 
+        .traffic,
+        .mobile {
+            width: 49%;
+            display: inline-block;
+        }
+    
+        .widget-container-full,
+        .widget-container-half {
+            width: 100%;
+        }
 }
 
 @media (max-width: 1040px) {
 
     .traffic, .mobile {
-        display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 4px;
-
+        grid-column: 1 / span 1;
 
         
     }
