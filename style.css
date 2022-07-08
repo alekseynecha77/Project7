@@ -95,8 +95,10 @@ svg{
   }
 
 
-.traffic, .mobile{
-text-align: center;    
+.traffic .mobile{
+text-align: center; 
+display: block;
+
 }
 
 
@@ -130,7 +132,7 @@ section{
     .nav{
         flex-direction: column;
     }
-    section{
+    .mobile .traffic{
         display: inline-block;
 
     }
