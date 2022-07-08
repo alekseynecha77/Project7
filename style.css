@@ -118,7 +118,9 @@ svg{
     grid-area: header;
 
 }
-
+.social-stats{
+    text-align: center;
+}
 @media (min-width: 768px) {
     .grid-container {
         grid-template-columns: 90px 1fr;
@@ -128,25 +130,26 @@ svg{
                 "navigation main";
     }
 
-
-
     .nav{
         flex-direction: column;
     }
 
-    .traffic, .mobile{
+    .traffic, .mobile {
         display: inline-block;
-        width: fit-content
-    }
+        }
 
 }
 
 @media (max-width: 1040px) {
 
     .traffic, .mobile {
-        display: inline-block;
-        width: fit-content
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+
+
         
     }
+
 
 }
