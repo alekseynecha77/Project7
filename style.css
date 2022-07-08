@@ -123,6 +123,7 @@ text-align: center;
                 "navigation main"
                 "navigation main";
     }
+
     .nav{
         flex-direction: column;
 
@@ -131,14 +132,3 @@ text-align: center;
 }
 
 
-
-/* @media (min-width:480px) { */
-/*  */
-/* nav{ */
-    /* flex-direction: row; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* background-color: rgb(95, 162, 216); */
-/* } */
-/*  */
-/*  */
