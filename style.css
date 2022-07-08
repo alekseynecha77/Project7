@@ -100,7 +100,7 @@ svg{
 
 
 
-.grid-container {
+  .grid-container {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -109,7 +109,6 @@ svg{
      "navigation" 
     " main"; 
 }
-
 .widget-container-half{
     display: block;
     
@@ -129,12 +128,15 @@ svg{
                 "navigation main";
     }
 
+
+
     .nav{
         flex-direction: column;
     }
 
     .traffic, .mobile{
         display: inline-block;
+        width: fit-content
     }
 
 }
@@ -143,6 +145,8 @@ svg{
 
     .traffic, .mobile {
         display: inline-block;
+        width: fit-content
+        
     }
 
 }
