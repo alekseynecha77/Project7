@@ -1,159 +1,171 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0 auto;
-
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(95, 162, 216);
-
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(95, 162, 216);
 }
 main {
-    background-color: lightblue;
-
+  background-color: lightblue;
 }
 svg {
-    width: 50px;
-    cursor: pointer;
+  width: 50px;
+  cursor: pointer;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
-
-
+  display: flex;
+  justify-content: flex-end;
 }
-h1{
-    margin-right: auto;
+h1 {
+  margin-right: auto;
 }
 
-
-.navigation{
-    top: 90px;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background: rgb(75, 106, 152);
-    fill: rgb(240, 243, 245); 
+.navigation {
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(75, 106, 152);
+  fill: rgb(240, 243, 245);
 }
-.nav{
-    text-align: center;
+.nav {
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    grid-area: navigation;
-    background-color: red;
+  display: flex;
+  flex-direction: column;
+  grid-area: navigation;
+  background-color: red;
 }
 
-
 #profile-image {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: auto 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
 }
 
 .bell-svg {
-    width: 1.7rem;
-    margin:30px;
+  width: 1.7rem;
+  margin: 30px;
 }
 
 .head {
-    display: flex;
+  display: flex;
 }
 
 .main {
-    grid-area: main;
+  grid-area: main;
 }
-h5{
-    margin: 40px;
+h5 {
+  margin: 40px;
 }
 
-svg{
-    margin: 1em auto;
-    width: 2.7rem;
-    margin:25px;
-    color: white;
+svg {
+  margin: 1em auto;
+  width: 2.7rem;
+  margin: 25px;
+  color: white;
 }
 
 .dot {
-    position: absolute;
-    right: 270px;
+  position: absolute;
+  right: 270px;
 
-    margin-top: 35px;
-    transform: translateY(-10px);
-    padding: 3px;
-    background-color: #90ee90;
-    border-radius: 50%;
-  }
+  margin-top: 35px;
+  transform: translateY(-10px);
+  padding: 3px;
+  background-color: #90ee90;
+  border-radius: 50%;
+}
 /*  */
-  /* .lineChart{ */
-    /* width: 70%; */
-  /* } */
+/* .lineChart{ */
+/* width: 70%; */
+/* } */
 
-
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas:
-     "header" 
-     "navigation" 
-    " main"; 
-}
-.widget-container-half{
-    display: block;
-    
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header"
+    "navigation"
+    " main";
 }
 
-.main-container{
-    grid-area: header;
+.main-container {
+  grid-area: header;
+}
+.social-stats {
+  text-align: center;
+}
+.widget-container-full,
+.widget-container-half {
+  width: 95vw;
+}
 
-}
-.social-stats{
-    text-align: center;
-}
 @media (min-width: 768px) {
-    .grid-container {
-        grid-template-columns: 90px 1fr;
-        grid-template-areas:
-                "header header"
-                "navigation main"
-                "navigation main";
-    }
+  .grid-container {
+    grid-template-columns: 90px 1fr;
+    grid-template-areas:
+      "header header"
+      "navigation main"
+      "navigation main";
+  }
 
-    .nav{
-        flex-direction: column;
-    }
+  .nav {
+    flex-direction: column;
+  }
 
 
-        .traffic,
-        .mobile {
-            width: 49%;
-            display: inline-block;
-        }
-    
-        .widget-container-full,
-        .widget-container-half {
-            width: 100%;
-        }
+  .traffic,
+  .mobile {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .widget-container-full {
+    width: 90vw;
+  }
+  .widget-container-half {
+    width: 45vw;
+  }
+  div .social-container {
+    display: inline-block;
+  }
+  .social-container {
+    flex-direction: row;
+  }
+
+  .traffic,
+  .social {
+    grid-column: 1 / span 2;
+  }
+
+  .daily,
+  .members,
+  .message {
+    grid-column: 1 / span 1;
+  }
+
+  .mobile,
+  .activity,
+  .settings {
+    grid-column: 2 / span 1;
+  }
 }
 
 @media (max-width: 1040px) {
-
-    .traffic, .mobile {
-        grid-column: 1 / span 1;
-
-        
-    }
-
-
+  .traffic,
+  .mobile {
+    grid-column: 1 / span 1;
+  }
 }
