@@ -115,6 +115,14 @@ svg {
   width: 95vw;
 }
 
+.social-container{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(233, 229, 223, 0.492);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
@@ -127,7 +135,14 @@ svg {
   .nav {
     flex-direction: column;
   }
-
+  .social-container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(233, 229, 223, 0.492);
+  
+  }
 
   .traffic,
   .mobile {
@@ -141,9 +156,9 @@ svg {
   .widget-container-half {
     width: 45vw;
   }
-  div .social-container {
-    display: inline-block;
-  }
+  /* div .social-container { */
+    /* display: inline-block; */
+  /* } */
   .social-container {
     flex-direction: row;
   }
@@ -171,4 +186,5 @@ svg {
   .mobile {
     grid-column: 1 / span 1;
   }
+
 }

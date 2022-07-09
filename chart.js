@@ -104,3 +104,22 @@ const mobileData = {
          data: mobileData,
          options: mobileOptions
          });
+
+      //    function chartUpdate(chart) {
+      //       let xScale = chart.scales.x;
+      //       let yScale = chart.scales.y;
+      //       chart.options.scales = {
+      //           newId: {
+      //               display: true
+      //           },
+      //           y: {
+      //               display: true,
+      //               type: 'logarithmic'
+      //           }
+      //       };
+      //       chart.update();
+      //       // need to update the reference
+      //       xScale = chart.scales.newId;
+      //       yScale = chart.scales.y;
+      //   }
+         
