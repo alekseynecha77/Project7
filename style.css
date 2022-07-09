@@ -107,6 +107,9 @@ svg {
 .social-stats {
   text-align: center;
 }
+.new-members{
+    text-align: center;
+}
 .widget-container-full,
 .widget-container-half {
   width: 95vw;
