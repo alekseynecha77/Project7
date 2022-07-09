@@ -167,7 +167,7 @@ svg {
 }
 
 /* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
@@ -176,6 +176,8 @@ svg {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
