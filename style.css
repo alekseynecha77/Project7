@@ -121,7 +121,10 @@ svg {
   background-color: rgba(233, 229, 223, 0.492);
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
+  margin: 10px auto 10px;
 }
+
 .popup {
   position: relative;
   display: inline-block;
@@ -189,15 +192,19 @@ svg {
   .nav {
     flex-direction: column;
   }
-  .social-container{
+ .social-container{
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgba(233, 229, 223, 0.492);
-  
-  }
+    flex-wrap: wrap;
+    align-items: center;
 
+  }
+  .social-cc{
+    display: flex;
+    flex-direction: row;
+
+  }
   .traffic,
   .mobile {
     width: 49%;
