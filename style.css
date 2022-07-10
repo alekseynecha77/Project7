@@ -198,11 +198,14 @@ svg {
     background-color: rgba(233, 229, 223, 0.492);
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px 70px 10px;
 
   }
   .social-cc{
     display: flex;
     flex-direction: row;
+/* flex-grow: 12px 20px 11px; */
+/* background-color: rgba(193, 134, 46, 0.492); */
 
   }
   .traffic,
@@ -242,7 +245,7 @@ svg {
   }
 }
 
-@media (max-width: 1040px) {
+@media (min-width: 1040px) {
   .traffic,
   .mobile {
     grid-column: 1 / span 1;
