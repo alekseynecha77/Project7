@@ -117,15 +117,15 @@ svg {
   width: 100%;
 }
 
-.social-container{
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(233, 229, 223, 0.492);
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 10px;
-  margin: 10px auto 10px;
-}
+/* .social-container{ */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* background-color: rgba(233, 229, 223, 0.492); */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* margin-bottom: 10px; */
+  /* margin: 10px auto 10px; */
+/* } */
 
 .popup {
   position: relative;
@@ -185,14 +185,12 @@ svg {
 
 
 .social-container {
-  width: 90%;
-  height: fit-content;
+  width: 100%;
   display: flex;
   background-color: rgba(211, 209, 209, 0.2);
-  border: 1px rgba(170, 170, 170, 0.4) solid;
-  border-radius: 10px;
   padding: 10px;
-  margin: 20px auto
+  margin: 10px auto;
+  justify-content: center;
 }
 
 .social-image {
@@ -206,10 +204,7 @@ svg {
 }
 
 .social-icon {
-  width: 50px;
-  height: 50px;
-  align-self: center;
-  justify-self: center;
+    justify-self: center;
   filter: invert(1);
 }
 
@@ -245,7 +240,7 @@ svg {
     flex-direction: row;
     background-color: rgba(233, 229, 223, 0.492);
     flex-wrap: wrap;
-    margin: 5px 2px 5px;
+    margin: 4px 3px 4px;
     width: 100%;
   }
   .social-cc{
