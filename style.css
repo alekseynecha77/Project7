@@ -114,7 +114,7 @@ svg {
 }
 .widget-container-full,
 .widget-container-half {
-  width: 95%;
+  width: 100%;
 }
 
 .social-container{
@@ -160,7 +160,6 @@ svg {
   border-color: #555 transparent transparent transparent;
 
 }
-
 
 
 
@@ -219,11 +218,11 @@ svg {
   }
 
   .widget-container-full {
-    width: 90%;
+    width: 100%;
   }
   .widget-container-half {
-    width: 90%;
-  }
+    width: 100%;
+        }
   /* div .social-container { */
     /* display: inline-block; */
   /* } */
