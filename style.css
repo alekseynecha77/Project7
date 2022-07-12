@@ -218,7 +218,9 @@ svg {
 .recent-members h3 {
   text-align: left;
 }
-
+.pointer{
+  visibility: hidden;
+}
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
@@ -227,7 +229,9 @@ svg {
       "navigation main"
       "navigation main";
   }
-
+  .pointer{
+    visibility: visible;
+  }
   .nav {
     flex-direction: column;
   }
