@@ -197,12 +197,25 @@ svg {
 
 .social-image {
   background-color: hsla(270, 28%, 55%, 0.625);
- 
   border-radius: 50%;
 }
 
+#alert{
+  padding: 4px 0 4px;
+  margin: 0 10px 0 10px;
+  background-color:rgb(173, 132, 206);
+  border-radius: 10px;
+  padding-bottom: 10px;
 
+}
 
+.alert-banner-close{
+  float: right;
+  display: flex;
+margin-right: 50px;
+text-align: center;
+margin-top: -36px;
+}
 
 @media (min-width: 768px) {
   .grid-container {
@@ -246,6 +259,7 @@ svg {
   right: 20px;
 
 }
+
 
   .widget-container-full{
     width: 100%;
