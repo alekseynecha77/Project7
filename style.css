@@ -190,9 +190,9 @@ svg {
   flex-direction: row;
   background-color: rgba(233, 229, 223, 0.492);
   flex-wrap: wrap;
-  margin: 4px 3px 4px;
-  width: 100%;
-  
+  padding: 5px 25px 5px;
+  margin: 10px;
+
 }
 
 .social-image {
@@ -229,6 +229,7 @@ svg {
   .social-cc{
     display: flex;
    justify-content: center;
+   width: 100%;
    
 
 /* flex-grow: 12px 20px 11px; */
@@ -237,23 +238,23 @@ svg {
   }
   .traffic,
   .mobile {
-    width: 40%;
- display: inline-flex;
-flex-direction:row ;
-margin: 5px 10px 5px;
-flex-wrap: wrap;
+    width: 48%;
+  display: inline-flex;
+  flex-direction:row ;
+  margin: 10px 5px 10px;
+  flex-wrap: wrap;
+  right: 20px;
 
 }
 
-  .widget-container-full {
+  .widget-container-full{
     width: 100%;
   }
-  .widget-container-half {
+  .widget-container-half{
     width: 100%;
-        }
-  /* div .social-container { */
-    /* display: inline-block; */
-  /* } */
+  }
+  
+
   .social-container {
     flex-direction: row;
   }
