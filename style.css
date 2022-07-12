@@ -184,6 +184,7 @@ svg {
 
 .member-photo{
   border-radius: 50%;
+
 }
 
 
@@ -201,6 +202,7 @@ svg {
 .social-image {
   background-color: hsla(270, 28%, 55%, 0.625);
   border-radius: 50%;
+
 }
 
 #alert{
@@ -220,15 +222,24 @@ text-align: center;
 margin-top: -36px;
 }
 
-.member-info{
+.new-members,  .recent-members{
+
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  background-color: rgba(233, 229, 223, 0.492);
-  flex-wrap: wrap;
-  padding: 5px 25px 5px;
-  margin: 10px;
+  flex-direction: column;
+  width: 100%;
 }
+.new-members h3,  .recent-members h3{
+  text-align: left;
+}
+/* .member-info{ */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* background-color: rgba(233, 229, 223, 0.492); */
+  /* flex-wrap: wrap; */
+  /* padding: 5px 25px 5px; */
+  /* margin: 10px; */
+/* } */
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
@@ -237,23 +248,12 @@ margin-top: -36px;
       "navigation main"
       "navigation main";
   }
-  .new-members,  .recent-members{
+
+
+/*  */
+/* .message, .section{ */
   /* display: inline-flex; */
-  /* flex-direction:row ; */
-  /* width: 100%; */
-
-
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-
-
-}
-
-
-.message, .section{
-  display: inline-flex;
-}
+/* } */
   .nav {
     flex-direction: column;
   }
@@ -271,12 +271,28 @@ margin-top: -36px;
     display: flex;
    justify-content: center;
    width: 100%;
-   
+  }
+   .new-members,  .recent-members{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .members-container{
+    display: inline-flex;
+      justify-content: center;
+      flex-direction: row;
+      background-color: rgba(233, 229, 223, 0.492);
+      flex-wrap: wrap;
+      margin: 10px;
+      width: 100%;
+    padding: 10px;
+  }
 /* flex-grow: 12px 20px 11px; */
 /* background-color: rgba(193, 134, 46, 0.492); */
 
-  }
+  
   .traffic,
   .mobile {
     width: 48%;
@@ -287,7 +303,6 @@ margin-top: -36px;
   right: 20px;
 
 }
-
 
   .widget-container-full{
     width: 100%;
