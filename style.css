@@ -72,6 +72,7 @@ h5 {
 }
 
 svg {
+  display: block;
   margin: 1em auto;
   width: 2.7rem;
   margin: 25px;
@@ -188,7 +189,7 @@ svg {
 
 .social-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row;
   background-color: rgba(233, 229, 223, 0.492);
   flex-wrap: wrap;
@@ -219,7 +220,15 @@ text-align: center;
 margin-top: -36px;
 }
 
-
+.member-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgba(233, 229, 223, 0.492);
+  flex-wrap: wrap;
+  padding: 5px 25px 5px;
+  margin: 10px;
+}
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
@@ -240,6 +249,7 @@ margin-top: -36px;
 
 
 }
+
 
 .message, .section{
   display: inline-flex;
