@@ -264,6 +264,18 @@ margin-top: -36px;
   .nav {
     flex-direction: column;
   }
+  .members-container {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.members-container > span {
+    display: block;
+    font-size: 18px;
+    color: #7477bf;
+}
+
+
  .social-container{
     display: inline-flex;
     justify-content: center;
@@ -281,13 +293,14 @@ margin-top: -36px;
   }
 
   .members-container{
-    display: inline-flex;
-      flex-direction: row;
-      background-color: rgba(233, 229, 223, 0.492);
-      flex-wrap: wrap;
-      margin: 10px;
-      width: 100%;
-    padding: 10px;
+      display: inline-flex;
+        flex-direction: row;
+        background-color: rgba(233, 229, 223, 0.492);
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 100%;
+      padding: 10px;
+    
   }
 /* flex-grow: 12px 20px 11px; */
 /* background-color: rgba(193, 134, 46, 0.492); */
