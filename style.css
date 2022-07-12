@@ -38,7 +38,11 @@ h1 {
   fill: rgb(240, 243, 245);
 }
 .nav {
-  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+ 
+  justify-content: center;
+
 }
 
 nav {
