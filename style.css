@@ -291,12 +291,13 @@ svg {
   }
 
   .MName,
-  p {
+  p, .pointer {
     width: auto;
     display: flex;
     margin-left: auto;
     margin-right: 30px;
   }
+  
   .widget-container-full {
     width: 100%;
   }
