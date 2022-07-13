@@ -332,4 +332,36 @@ svg {
   .mobile {
     grid-column: 1 / span 1;
   }
+
+   .new-members ,
+   .recent-members {
+     display: inline-flex;
+   flex-direction: row;
+
+     justify-content: space-evenly;
+     margin-top: 20px;
+     flex: 100% 100% 0px;
+   
+   }
+   .new-members h3,
+   .recent-members h3{
+    text-align: left;
+    
+   }
+
+   .grid-container {
+display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "header header"
+        "navigation main";
+}
+.MName,
+p, 
+.pointer {
+ width: auto;
+ display: inline-flex;
+ margin-left: auto;
+ margin-right: 30px;
+}
 }
