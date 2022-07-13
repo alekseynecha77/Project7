@@ -267,7 +267,6 @@ svg {
     flex-direction: row;
     background-color: rgba(233, 229, 223, 0.492);
     flex-wrap: wrap;
-    margin: 10px;
     width: 100%;
     padding: 10px;
   }
