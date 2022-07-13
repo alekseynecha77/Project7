@@ -291,7 +291,8 @@ svg {
   }
 
   .MName,
-  p, .pointer {
+   p, 
+  .pointer {
     width: auto;
     display: flex;
     margin-left: auto;
