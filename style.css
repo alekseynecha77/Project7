@@ -221,6 +221,8 @@ svg {
 .pointer{
   visibility: hidden;
 }
+
+
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 90px 1fr;
@@ -333,22 +335,18 @@ svg {
     grid-column: 1 / span 1;
   }
 
-   .new-members ,
-   .recent-members {
-     display: inline-flex;
-   flex-direction: row;
-   width: 100%;
-     justify-content: space-evenly;
-     flex:10px 10px ;
-     flex-grow: 1 1 auto;
-   }
-
-
    .new-members h3,
    .recent-members h3{
     text-align: left;
     
    }
+   .members-and-activities{
+    display: grid;
+    grid-template-columns: .4fr .4fr;
+     }
+     .members-acctive{
+      width: 100%;
+    }
 
    .grid-container {
 display: grid;
