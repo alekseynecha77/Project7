@@ -342,11 +342,9 @@ svg {
    }
    .members-and-activities{
     display: grid;
-    grid-template-columns: .4fr .4fr;
+    grid-template-columns: 20% 30%;
      }
-     .members-acctive{
-      width: 100%;
-    }
+
 
    .grid-container {
 display: grid;
