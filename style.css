@@ -349,8 +349,9 @@ svg {
   
   .members-and-activities{
     display: grid;
-	  grid-template-columns: 50% 50%;
-    gap: 10px
+	  grid-template-columns: 60% 55%;
+    gap: 10px;
+grid-auto-flow: column;
   }
    .grid-container {
 display: grid;
