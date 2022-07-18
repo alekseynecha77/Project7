@@ -213,7 +213,10 @@ svg {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: fit-content;
+bottom: 0;
 }
+
 .new-members h3,
 .recent-members h3 {
   text-align: left;
@@ -328,8 +331,8 @@ svg {
     grid-column: 2 / span 1;
   }
   .members-and-activities{
-    display: grid;
-	  grid-column: 300px;
+
+	  grid-column: 1 / span 1;
   }
 }
 
