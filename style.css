@@ -208,14 +208,7 @@ svg {
   margin-top: -36px;
 }
 
-.new-members,
-.recent-members {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: fit-content;
-bottom: 0;
-}
+
 
 .new-members h3,
 .recent-members h3 {
@@ -246,9 +239,9 @@ bottom: 0;
   }
 
   .members-container > span {
-    display: block;
     font-size: 18px;
     color: #7477bf;
+    margin-right: 20px;
   }
 
   .social-container {
@@ -275,7 +268,14 @@ bottom: 0;
     width: 100%;
     padding: 10px;
   }
-
+  .new-members,
+  .activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  bottom: 0;
+  }
   .traffic,
   .mobile {
     width: 48%;
@@ -334,6 +334,14 @@ bottom: 0;
 
 	  grid-column: 1 / span 1;
   }
+  .new-members,
+.activity {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+bottom: 0;
+}
 }
 
 @media (min-width: 1024px) {
@@ -343,7 +351,7 @@ bottom: 0;
   }
 
    .new-members h3,
-   .recent-members h3{
+   .activity h3{
     text-align: left;
     
    }
@@ -384,7 +392,6 @@ display: flex;
 p, 
 .pointer {
  width: auto;
- display: inline-flex;
  margin-left: auto;
  margin-right: 30px;
 }
