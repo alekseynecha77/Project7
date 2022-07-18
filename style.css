@@ -114,12 +114,14 @@ svg {
   width: 100%;
   border: 1px solid gray;
 }
-.alert{
+.alert, .closebtn{
   display: inline-flex;
 
 }
- .closebtn{
-margin-left: auto;
+.closebtn{
+float: right;
+margin-right: 23px;
+margin-top: 20px;
 }
 .popup {
   position: relative;
