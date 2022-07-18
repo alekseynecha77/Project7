@@ -1,5 +1,5 @@
 const alertBanner = document.getElementById("alert");
-const bell = document.getElementById('bell');
+const bell = document.getElementsByClassName('bell-svg');
 
 
 alertBanner.innerHTML = `
@@ -10,14 +10,31 @@ to complete</p>
 </div>
 
 `
-alertBanner.addEventListener('click', e => {
-    const element = e.target;
-    if (element.classList.contains("alert-banner-close")) {
-    alertBanner.style.display = "none"
-    }
+// function myFunction() {
+
+//       bell.classList
+//        var popup = document.getElementById('myPopup');
+//        popup.classList.toggle("show");
+// }
+
+   //  const element = e.target;
+   //  if (element.classList.contains("alert-banner-close")) {
+   //  alertBanner.style.display = "none"
+   //  }
+   function myFunction() {
+   bell.addEventListener('click', () => {
+   
+      bell.innerHTML = `
+ <div class='popup'>
+ <ul>
+ <li>aedwaaedawedawde</li>
+ <li>aedwaaedawedawde</li>
+ <li>aedwaaedawedawde</li>
+ <li>aedwaaedawedawde</li>
+ </ul>
+ </div>
+ `
     });
 
-    function myFunction() {
-       var popup = document.getElementById('myPopup');
-       popup.classList.toggle("show");
-    };
+   }
+ 

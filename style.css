@@ -269,10 +269,9 @@ svg {
   .activity {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: fit-content;
-    bottom: 0;
+    height: auto;
   }
+
   .traffic,
   .mobile {
     width: 48%;
@@ -350,14 +349,21 @@ svg {
   .activity h3 {
     text-align: left;
   }
-
-  .alert p {
-    display: grid;
-    grid-row-gap: 24px;
-    grid-column-gap: 16px;
-    margin: 20px;
+  .member-photo {
+    width: 60px;
+    height: 60px;
   }
-
+  
+  .member-info,
+  .pointer {
+    font-size: 14px;
+  }
+  /* .alert p { */
+    /* display: grid; */
+    /* grid-row-gap: 24px; */
+    /* grid-column-gap: 16px; */
+    /* margin: 20px; */
+  /* } */
   .navigation {
     display: flex;
     width: 500px;
@@ -368,11 +374,10 @@ svg {
 
   .members-and-activities {
     display: grid;
-    grid-template-columns: 50% 1fr;
+    grid-template-columns: 45% 1.5fr;
     gap: 10px;
     grid-auto-flow: column;
     border: 1px solid gray;
-
   }
 
   .grid-container {
@@ -381,6 +386,10 @@ svg {
       "header header"
       "navigation main"
       "navigation main";
+  }
+  .new-members, 
+  .activity{
+    line-height: 20px;
   }
   .form-field {
     grid-area: message-field;
