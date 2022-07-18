@@ -412,9 +412,10 @@ svg {
 
   }
   .MName,
-  p,
+  .member-info p,
   .pointer {
     width: auto;
+    display: flex;
     margin-left: auto;
     margin-right: 30px;
   }

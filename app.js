@@ -1,40 +1,33 @@
-const alertBanner = document.getElementById("alert");
-const bell = document.getElementsByClassName('bell-svg');
+// const alertBanner = document.getElementById("alert");
+// const bell = document.getElementsByClassName('bell-svg');
 
 
-alertBanner.innerHTML = `
-<div class="alert-banner">
-<p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks
-to complete</p>
-<p class="alert-banner-close">x</p>
-</div>
 
-`
-// function myFunction() {
-
-//       bell.classList
-//        var popup = document.getElementById('myPopup');
-//        popup.classList.toggle("show");
-// }
-
-   //  const element = e.target;
-   //  if (element.classList.contains("alert-banner-close")) {
-   //  alertBanner.style.display = "none"
-   //  }
    function myFunction() {
-   bell.addEventListener('click', () => {
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
    
       bell.innerHTML = `
- <div class='popup'>
- <ul>
- <li>aedwaaedawedawde</li>
- <li>aedwaaedawedawde</li>
- <li>aedwaaedawedawde</li>
- <li>aedwaaedawedawde</li>
- </ul>
- </div>
- `
-    });
+   
+      <div class="content">
+        <p>Dale Byrd liked the post  <strong>Facebook's Changes for 2021</strong></p>
+      </div>
+      
+`
 
+ for(i=0; i<coll.length;i++){
+   coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if(content.style.maxHeight){
+         content.style.maxHeight = null;
+      }else{
+         content.style.maxHeight = content.scrollHeight + "px";
+
+      }
+
+ });
+
+
+ }
    }
- 
