@@ -349,7 +349,7 @@ svg {
   
   .members-and-activities{
     display: grid;
-	  grid-template-columns: 60% 55%;
+	  grid-template-columns: 50% 1fr;
     gap: 10px;
 grid-auto-flow: column;
   }
