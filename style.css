@@ -330,13 +330,16 @@ svg {
     grid-column: 1 / span 1;
   }
   .new-members,
-  .activity {
+  .activities {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    bottom: 0;
   }
+  .new-members{
+    line-height: 20px;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -387,10 +390,7 @@ svg {
       "navigation main"
       "navigation main";
   }
-  .new-members, 
-  .activity{
-    line-height: 20px;
-  }
+
   .form-field {
     grid-area: message-field;
     outline: none;
