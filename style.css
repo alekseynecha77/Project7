@@ -380,7 +380,12 @@ svg {
       "navigation main"
       "navigation main";
   }
-
+  .message-and-settings{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 10px;
+    grid-auto-flow: column;
+  }
   .MName,
   p,
   .pointer {

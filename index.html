@@ -28,12 +28,15 @@
 
                     </a>
                     <div class="popup" onclick="myFunction()">  Click ME! 
-                        <span class="popuptext" id="myPopup">
-                            <li>1message</li>
-                            <li>2message</li>
-                            <li>3message</li>
-                        </span>
-                      </div>
+                      
+                            <ul class="popuptext" id="myPopup"> 
+                                <li>1message</li>
+                                <li>2message</li>
+                                <li>3message</li>
+                     
+                   
+                    </ul> 
+                    </div>
                 </div>
 
 
@@ -80,7 +83,7 @@
         </div>
 
         <div id="alert">
-            <button class="alert"><p>Alert: You have unread messages</p></button>
+            <button class="alert">Alert: You have unread messages</button>
             <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span>
 
         </div>
@@ -144,7 +147,7 @@
                 <div class="social-cc">
                     <div class="social-container">
                         <div class="social-image">
-                            <svg fill="white"viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <svg fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z"/>
                               </svg>
                           
@@ -279,7 +282,8 @@
 </div>
  
                     <!-- messaging widget -->
-<section class="message">
+<section class="message-and-settings">
+<div class="message">
     <h3>Message User</h3>
     <form class="widget-container">
     <input type="text" placeholder="Search for user"
@@ -292,10 +296,10 @@
     
     <button class="button-primary" id="send" >Send</button>
     </form>
-    </section>
+    </div>
 <!-- local settings widget  -->
  
-<section class="settings">
+<div class="settings">
     <h3>Settings</h3>
    <!-- custom CSS toggle code  -->
 
@@ -304,15 +308,15 @@
     <option>Eastern</option>
     <!-- more options -->
     </select>
+</div>
+
+</section>
     <div class="settings-button" >
     <button class="button-primary" id="save">Save</button>
     <button class="button-disabled" id="cancel">Cancel</button>
     </div>
-    </section>
 
-                </div>
-           
-            </div>
+
         </main> 
             <span class ="line-break"></span>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
