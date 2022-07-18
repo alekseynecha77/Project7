@@ -348,21 +348,38 @@ bottom: 0;
     
    }
 
+  .alert p{
 
+    display: grid;
+    grid-row-gap: 24px;
+    grid-column-gap: 16px;
+margin: 20px;
+  }
+
+.navigation{
+display: flex;
+  width: 500px;
+  height: 100%;
+  background: rgb(75, 106, 152);
+  fill: rgb(240, 243, 245);
+}
   
   .members-and-activities{
     display: grid;
 	  grid-template-columns: 50% 1fr;
     gap: 10px;
-grid-auto-flow: column;
+    grid-auto-flow: column;
   }
+
    .grid-container {
-display: grid;
-    grid-template-columns: 50px 1fr;
-    grid-template-areas:
-        "header header"
-        "navigation main";
+      grid-template-columns: 90px 1fr;
+      grid-template-areas:
+      "header header"
+      "navigation main"
+      "navigation main";
+        
 }
+
 .MName,
 p, 
 .pointer {
