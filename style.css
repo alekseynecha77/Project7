@@ -208,16 +208,13 @@ svg {
   margin-top: -36px;
 }
 
-
-
 .new-members h3,
 .recent-members h3 {
   text-align: left;
 }
-.pointer{
+.pointer {
   visibility: hidden;
 }
-
 
 @media (min-width: 768px) {
   .grid-container {
@@ -227,7 +224,7 @@ svg {
       "navigation main"
       "navigation main";
   }
-  .pointer{
+  .pointer {
     visibility: visible;
   }
   .nav {
@@ -274,7 +271,7 @@ svg {
     flex-direction: column;
     width: 100%;
     height: fit-content;
-  bottom: 0;
+    bottom: 0;
   }
   .traffic,
   .mobile {
@@ -295,14 +292,14 @@ svg {
   }
 
   .MName,
-   p, 
+  p,
   .pointer {
     width: auto;
     display: flex;
     margin-left: auto;
     margin-right: 30px;
   }
-  
+
   .widget-container-full {
     width: 100%;
   }
@@ -330,18 +327,17 @@ svg {
   .settings {
     grid-column: 2 / span 1;
   }
-  .members-and-activities{
-
-	  grid-column: 1 / span 1;
+  .members-and-activities {
+    grid-column: 1 / span 1;
   }
   .new-members,
-.activity {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: fit-content;
-bottom: 0;
-}
+  .activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -350,49 +346,46 @@ bottom: 0;
     grid-column: 1 / span 1;
   }
 
-   .new-members h3,
-   .activity h3{
+  .new-members h3,
+  .activity h3 {
     text-align: left;
-    
-   }
+  }
 
-  .alert p{
-
+  .alert p {
     display: grid;
     grid-row-gap: 24px;
     grid-column-gap: 16px;
-margin: 20px;
+    margin: 20px;
   }
 
-.navigation{
-display: flex;
-  width: 500px;
-  height: 100%;
-  background: rgb(75, 106, 152);
-  fill: rgb(240, 243, 245);
-}
-  
-  .members-and-activities{
+  .navigation {
+    display: flex;
+    width: 500px;
+    height: 100%;
+    background: rgb(75, 106, 152);
+    fill: rgb(240, 243, 245);
+  }
+
+  .members-and-activities {
     display: grid;
-	  grid-template-columns: 50% 1fr;
+    grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
   }
 
-   .grid-container {
-      grid-template-columns: 90px 1fr;
-      grid-template-areas:
+  .grid-container {
+    grid-template-columns: 90px 1fr;
+    grid-template-areas:
       "header header"
       "navigation main"
       "navigation main";
-        
-}
+  }
 
-.MName,
-p, 
-.pointer {
- width: auto;
- margin-left: auto;
- margin-right: 30px;
-}
+  .MName,
+  p,
+  .pointer {
+    width: auto;
+    margin-left: auto;
+    margin-right: 30px;
+  }
 }
