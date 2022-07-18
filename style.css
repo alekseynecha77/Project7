@@ -207,6 +207,12 @@ margin-top: 20px;
   border-radius: 10px;
   padding-bottom: 10px;
 }
+.activities{
+  text-align: center;
+}
+.activities h3{
+  text-align: left;
+}
 
 .alert-banner-close {
   float: right;
@@ -223,6 +229,37 @@ margin-top: 20px;
 .pointer {
   visibility: hidden;
 }
+
+/*  message field */
+
+form.widget-container {
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: calc(95% - 10px);
+}
+
+button#send.button-primary {
+  border-radius: 5px;
+  background-color: #7747bf;
+  color: white;
+  border: none;
+  line-height: 4;
+  border: none;
+}
+
+
+.message-field {
+  grid-area: message-field;
+  outline: none;
+  height: 7rem;
+  margin: 10px 0;
+  padding: 1rem;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+/* MEDIA QUERIES1 */
 
 @media (min-width: 768px) {
   .grid-container {
@@ -350,6 +387,8 @@ margin-top: 20px;
 
 }
 
+/* MEDIA QUERIES2 */
+
 @media (min-width: 1024px) {
   .traffic,
   .mobile {
@@ -402,8 +441,7 @@ margin-top: 20px;
   .form-field {
     grid-area: message-field;
     outline: none;
-    height: 7rem;
-    margin: 10px 0;
+    margin: 3px ;
     padding: 1rem;
     background-color: lightgrey;
     border-radius: 5px;
@@ -418,6 +456,30 @@ margin-top: 20px;
   .message{
     border: 1px solid gray;
 
+  }
+  #timezone{
+    width: 300px;
+  }
+  button#save.button-primary {
+    border: none;
+    background-color: #7747bf;
+    border-radius: 10px;
+    width: 175px;
+    height: 70px;
+    color: white;
+  }
+  
+  button#cancel.button-disabled {
+    border: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 175px;
+    height: 70px;
+    color: white;
+    cursor: pointer;
+  }
+  .members-container{
+    height: 100px;
   }
   .MName,
   .member-info p,
