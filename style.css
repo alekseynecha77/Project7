@@ -463,10 +463,13 @@ button#send.button-primary {
     width: 100%;
     align-items: center;
   }
-  .switch-ios
-  .toggleEFFect span{ 
-    background-color: #7747bf;
+  .switch-ios.switch-light > span{ 
+    background: #7747bf;
     }
+    .switch-ios.switch-light input:checked ~ span{ 
+      background: #7747bf;
+      color: #fff;
+      }
   button#cancel.button-disabled {
     border: none;
     background-color: lightgray;
