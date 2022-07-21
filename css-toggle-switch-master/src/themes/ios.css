@@ -1,0 +1,96 @@
+/* iOS Theme
+*/
+.switch-ios.switch-light span span {
+  color: #888b92;
+}
+
+.switch-ios.switch-light a {
+  left: 0;
+  top: 0;
+  width: size(32);
+  height: size(32);
+  background-color: #fff;
+  border-radius: 100%;
+  border: size(4) solid #D8D9DB;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.switch-ios.switch-light > span {
+  display: block;
+  width: 100%;
+  height: size(32);
+  background-color: #D8D9DB;
+  border-radius: size(28);
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.switch-ios.switch-light > span span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  line-height: size(30);
+  vertical-align: middle;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.switch-ios.switch-light > span span:first-of-type {
+  opacity: 1;
+  padding-left: size(30);
+}
+
+.switch-ios.switch-light > span span:last-of-type {
+  padding-right: size(30);
+}
+
+.switch-ios.switch-light input:checked ~ span a {
+  left: 100%;
+  border-color: #4BD865;
+  margin-left: size(-32);
+}
+
+.switch-ios.switch-light input:checked ~ span {
+  border-color: #4BD865;
+  -webkit-box-shadow: inset 0 0 0 30px #4BD865;
+          box-shadow: inset 0 0 0 30px #4BD865;
+}
+
+.switch-ios.switch-light input:checked ~ span span:first-of-type {
+  opacity: 0;
+}
+
+.switch-ios.switch-light input:checked ~ span span:last-of-type {
+  opacity: 1;
+  color: #fff;
+}
+
+.switch-ios.switch-toggle {
+  background-color: #D8D9DB;
+  border-radius: 30px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0;
+          box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0;
+}
+
+.switch-ios.switch-toggle a {
+  background-color: #4BD865;
+  border: size(2) solid #D8D9DB;
+  border-radius: size(28);
+  -webkit-transition: all 0.12s ease-out;
+  transition: all 0.12s ease-out;
+}
+
+.switch-ios.switch-toggle label {
+  height: 2.4em;
+  color: #888b92;
+  line-height: 2.4em;
+  vertical-align: middle;
+}
+
+.switch-ios input:checked + label {
+  color: #3e4043;
+}
+/*# sourceMappingURL=ios.css.map */
