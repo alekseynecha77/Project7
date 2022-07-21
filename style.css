@@ -130,7 +130,10 @@ margin-top: 20px;
 
 
 /* Toggle this class - hide and show the popup */
-
+.switch-ios
+.toggleEFFect span{ 
+  background-color: #7747bf;
+  }
 
 .popupers{
 width: 400px;
@@ -368,7 +371,10 @@ button#send.button-primary {
   .new-members{
     line-height: 20px;
   }
-
+  .switch-ios
+  .toggleEFFect span{ 
+    background-color: #7747bf;
+    }
 }
 
 /* MEDIA QUERIES2 */
@@ -455,7 +461,12 @@ button#send.button-primary {
   .SaveCancel{
     display: inline-flex;
     width: 100%;
+    align-items: center;
   }
+  .switch-ios
+  .toggleEFFect span{ 
+    background-color: #7747bf;
+    }
   button#cancel.button-disabled {
     border: none;
     background-color: lightgray;
