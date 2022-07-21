@@ -28,23 +28,24 @@
 
                     </a>
      
-                    <div class="popupers" id="popup">
-                        <ul>
-                            <li>Victoria Chambers commented on <strong>WebApp's SEO Tips</strong></li>
-                            <li>Dale Byrd liked the post  <strong>Facebook's Changes for 2021</strong></li>
-                            <li>Dawn Wood commented on <strong>Facebook's Changes for 2021</strong></li>
-                            <li>Dan Oliver posted <strong>WebApp's SEO Tips</strong></li>
-                            <li>sefsesef</li>
-                            <li>sefsesef</li>
-
-                        </ul>
-
-                        <button type="button" onclick="closePopup()">OK</button>
-
-                    </div>
-
+                 
                     
                 </div>
+                <div class="popupers" id="popup">
+                    <ul>
+                        <li>Victoria Chambers commented on <strong>WebApp's SEO Tips</strong></li>
+                        <li>Dale Byrd liked the post  <strong>Facebook's Changes for 2021</strong></li>
+                        <li>Dawn Wood commented on <strong>Facebook's Changes for 2021</strong></li>
+                        <li>Dan Oliver posted <strong>WebApp's SEO Tips</strong></li>
+                        <li>Dan Oliver posted WebApp's SEO Tips</li>
+                        <li>Dawn Wood commented on <strong>Facebook's Changes for 2021</strong></li>
+
+                    </ul>
+
+                    <button type="button" onclick="closePopup()">OK</button>
+
+                </div>
+
 
 
                 <div class="v-line"></div>
@@ -90,7 +91,7 @@
         </div>
 
         <div id="alert">
-            <p class="alert">Alert: You have unread messages</p>
+            <p class="alert">Alert: You have 6 unread messages</p>
             <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span>
 
         </div>
@@ -295,9 +296,7 @@
     <form class="widget-container">
     <input type="text" placeholder="Search for user" class="form-field" id="userField">
     
-    <textarea placeholder="Message for user" class="message-field"
-    
-    id= "messageField" ></textarea>
+    <textarea placeholder="Message for user" class="message-field" id= "messageField" ></textarea>
     
     <button class="button-primary" id="send" >Send</button>
     </form>
@@ -307,8 +306,36 @@
 <div class="settings">
     <h3>Settings</h3>
    <!-- custom CSS toggle code  -->
-   <span>Off</span>
-   <span>On</span>
+   <div id="email-btn" class="email-btn">
+
+    <!-- first switch -->
+    <label class="hide" onclick="">
+    <input id="settingsCheckboxProfile" class="input" type="checkbox">
+    <strong>
+        Send Email Notification
+       </strong>
+       <span class="span">
+        <span>Off</span>
+        <span>On</span>
+        <a></a>
+      </span>
+  </label>
+</div>
+   
+<div class="email-btn">
+    <label class="hide" onclick="">
+        <input id="settingsCheckboxProfile" class="input" type="checkbox">
+        <strong>
+            Set Profile to Public
+           </strong>
+           <span class="span">
+             <span>Off</span>
+             <span>On</span>
+             <a></a>
+           </span>
+       </label>
+   </div>
+
 
     <select class="form-field" id="timezone">
     <option disabled selected>Select a Timezone</option>
@@ -317,13 +344,13 @@
 
 
     </select>
+
+    <div class="SaveCancel">
+    <button class="button-primary" id="save">Save</button>
+    <button class="button-disabled" id="cancel">Cancel</button>
+</div>
 </div>
 
-
-    <!-- <div class="settings-button" > -->
-             <button class="button-primary" id="save">Save</button>
-            <button class="button-disabled" id="cancel">Cancel</button>
-    <!-- </div> -->
 </section>
 
         </main> 

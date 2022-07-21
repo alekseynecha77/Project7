@@ -452,7 +452,10 @@ button#send.button-primary {
     height: 70px;
     color: white;
   }
-  
+  .SaveCancel{
+    display: inline-flex;
+    width: 100%;
+  }
   button#cancel.button-disabled {
     border: none;
     background-color: lightgray;
