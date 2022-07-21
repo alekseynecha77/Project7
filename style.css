@@ -130,9 +130,8 @@ margin-top: 20px;
 
 
 /* Toggle this class - hide and show the popup */
-.switch-ios
-.toggleEFFect span{ 
-  background-color: #7747bf;
+.switch-ios.switch-light > span{ 
+  background: #7747bf;
   }
 
 .popupers{
@@ -371,9 +370,8 @@ button#send.button-primary {
   .new-members{
     line-height: 20px;
   }
-  .switch-ios
-  .toggleEFFect span{ 
-    background-color: #7747bf;
+  .switch-ios.switch-light > span{ 
+    background: #7747bf;
     }
 }
 
