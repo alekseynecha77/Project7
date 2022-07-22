@@ -249,12 +249,12 @@ button#send.button-primary {
   box-shadow: inset 0 0 0 30px #7747bf;
   color: #fff;
 }
-label.switch-ios.switch-light {
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-  margin: auto;
-}
+/* label.switch-ios.switch-light { */
+  /* display: inline-flex; */
+  /* flex-direction: row; */
+  /* width: 100%; */
+  /* margin: auto; */
+/* } */
 button#save.button-primary {
   border: none;
   background-color: #7747bf;
@@ -273,6 +273,10 @@ button#cancel.button-disabled {
   height: 50px;
   color: white;
   cursor: pointer;
+}
+.TGButtons{
+  display: flex;
+  flex-direction: column;
 }
 
 /* MEDIA QUERIES1 */
