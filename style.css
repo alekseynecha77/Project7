@@ -114,45 +114,42 @@ svg {
   width: 100%;
   border: 1px solid gray;
 }
-.alert, .closebtn{
+.alert,
+.closebtn {
   display: inline-flex;
-
 }
-.closebtn{
-float: right;
-margin-right: 23px;
-margin-top: 20px;
+.closebtn {
+  float: right;
+  margin-right: 23px;
+  margin-top: 20px;
 }
 
 /* The actual popup */
 
 /* Popup arrow */
 
-
 /* Toggle this class - hide and show the popup */
 
-
-.popupers{
-width: 400px;
-background: #fff;
-border-radius: 6px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%)scale(0.1);
-text-align: center;
-padding: 0 30px 30px;
-color: #333;
-visibility: hidden;
-transition: transform 0.4s, top 0.4s;
-
+.popupers {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
 }
-.open-popup{
+.open-popup {
   visibility: visible;
   top: 50%;
-  transform: translate(-50%, -50%)scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
-.popupers button{
+.popupers button {
   width: 100%;
   margin-top: 50px;
   padding: 10px 0;
@@ -191,10 +188,10 @@ transition: transform 0.4s, top 0.4s;
   border-radius: 10px;
   padding-bottom: 10px;
 }
-.activities{
+.activities {
   text-align: center;
 }
-.activities h3{
+.activities h3 {
   text-align: left;
 }
 
@@ -217,7 +214,7 @@ transition: transform 0.4s, top 0.4s;
 /*  message field */
 
 form.widget-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: calc(95% - 10px);
@@ -232,7 +229,6 @@ button#send.button-primary {
   border: none;
   cursor: pointer;
 }
-
 
 .message-field {
   grid-area: message-field;
@@ -253,7 +249,7 @@ button#send.button-primary {
   box-shadow: inset 0 0 0 30px #7747bf;
   color: #fff;
 }
-label.switch-ios.switch-light{
+label.switch-ios.switch-light {
   display: inline-flex;
   flex-direction: row;
   width: 100%;
@@ -400,10 +396,9 @@ button#cancel.button-disabled {
     width: 100%;
     height: fit-content;
   }
-  .new-members{
+  .new-members {
     line-height: 20px;
   }
-
 }
 
 /* MEDIA QUERIES2 */
@@ -422,16 +417,16 @@ button#cancel.button-disabled {
     width: 60px;
     height: 60px;
   }
-  
+
   .member-info,
   .pointer {
     font-size: 14px;
   }
   /* .alert p { */
-    /* display: grid; */
-    /* grid-row-gap: 24px; */
-    /* grid-column-gap: 16px; */
-    /* margin: 20px; */
+  /* display: grid; */
+  /* grid-row-gap: 24px; */
+  /* grid-column-gap: 16px; */
+  /* margin: 20px; */
   /* } */
   .navigation {
     display: flex;
@@ -460,23 +455,21 @@ button#cancel.button-disabled {
   .form-field {
     grid-area: message-field;
     outline: none;
-    margin: 3px ;
+    margin: 3px;
     padding: 1rem;
     background-color: lightgrey;
     border-radius: 5px;
   }
-  .message-and-settings{
+  .message-and-settings {
     display: grid;
     grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
-
   }
-  .message{
+  .message {
     border: 1px solid gray;
-
   }
-  #timezone{
+  #timezone {
     width: 300px;
   }
   button#save.button-primary {
@@ -488,12 +481,10 @@ button#cancel.button-disabled {
     color: white;
     cursor: pointer;
   }
-  .SaveCancel{
+  .SaveCancel {
     display: inline-flex;
     width: 100%;
   }
-
-
 
   button#cancel.button-disabled {
     border: none;
@@ -504,7 +495,7 @@ button#cancel.button-disabled {
     color: white;
     cursor: pointer;
   }
-  .members-container{
+  .members-container {
     height: 100px;
   }
   .MName,
@@ -515,7 +506,7 @@ button#cancel.button-disabled {
     margin-left: auto;
     margin-right: 30px;
   }
-  .settings-button{
+  .settings-button {
     text-align: center;
   }
 }

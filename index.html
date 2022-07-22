@@ -109,16 +109,16 @@
                         <div class="switch-toggle-switch-candy">
 
                             <input id="hour" name="view" type="radio" checked>
-                            <label for="hour" onclick="chartUpdate('line')">Hourly</label>
+                            <label for="hour">Hourly</label>
     
                             <input id="day" name="view" type="radio">
-                            <label for="day" onclick="chartUpdate('line')">Daily</label>
+                            <label for="day" >Daily</label>
     
                             <input id="week" name="view" type="radio">
                             <label for="week">Weekly</label>
     
                             <input id="month" name="view" type="radio">
-                            <label for="month" onclick="chartUpdate('line')">Monthly</label>
+                            <label for="month">Monthly</label>
     
                             <a></a>
                         </div>
@@ -307,9 +307,9 @@
 <div class="settings">
     <h3>Settings</h3>
    <!-- custom CSS toggle code  -->
- <!--   <div id="email-btn" class="email-btn"> -->
+
       
-       
+       <!--First toggle switch button-->
       <label class="switch-light switch-ios" style="width: 200px" onclick="">
         <strong>Send Email Notifications</strong>
         <input type="checkbox">
@@ -323,9 +323,8 @@
       </label>
 
 
-      
+             <!--Second toggle switch button-->
 
-      
       <label class="switch-light switch-ios" style="width: 200px" onclick="">
         <strong>Set Profile to Public</strong>
         <input type="checkbox">
@@ -337,33 +336,7 @@
           <a></a>
         </span>
       </label>
-    <!-- first switch -->
-    <!-- <label class="hide" onclick=""> -->
-    <!-- <input id="settingsCheckboxProfile" class="input" type="checkbox"> -->
-    <!-- <strong> -->
-        <!-- Send Email Notification -->
-       <!-- </strong> -->
-       <!-- <span class="span"> -->
-        <!-- <span>Off</span> -->
-        <!-- <span>On</span> -->
-        <!-- <a></a> -->
-      <!-- </span> -->
-  <!-- </label> -->
-<!-- </div> -->
-   <!--  -->
-<!-- <div class="email-btn"> -->
-    <!-- <label class="hide" onclick=""> -->
-        <!-- <input id="settingsCheckboxProfile" class="input" type="checkbox"> -->
-        <!-- <strong> -->
-            <!-- Set Profile to Public -->
-           <!-- </strong> -->
-           <!-- <span class="span"> -->
-             <!-- <span>Off</span> -->
-             <!-- <span>On</span> -->
-             <!-- <a></a> -->
-           <!-- </span> -->
-       <!-- </label> -->
-   <!-- </div> -->
+  
 
 
     <select class="form-field" id="timezone">
