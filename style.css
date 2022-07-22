@@ -242,6 +242,11 @@ button#send.button-primary {
 .switch-ios.switch-light > .toggleEFFect {
   background-color: #7747bf;
   width: 50%;
+  display: grid;
+
+
+  gap: 4px;
+  grid-auto-flow: row;
 }
 
 .switch-ios.switch-light input:checked ≈ {
