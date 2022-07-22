@@ -119,7 +119,6 @@ svg {
   display: inline-flex;
 }
 .closebtn {
-  float: right;
   margin-right: 23px;
   margin-top: 20px;
 }
@@ -196,7 +195,7 @@ svg {
 }
 
 .alert-banner-close {
-  float: right;
+  /* float: right; */
   display: flex;
   margin-right: 50px;
   text-align: center;
@@ -279,6 +278,18 @@ button#cancel.button-disabled {
 .TGButtons{
   display: flex;
   flex-direction: column;
+}
+label.switch-light{
+  position: relative;
+  display: flex;
+}
+.properties{
+
+
+  margin: 8px;
+ width: 100%;
+  
+  font-weight: 400;
 }
 /* .toggleEFFect{ */
   /* display: inline-flex; */
