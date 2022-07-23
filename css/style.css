@@ -240,8 +240,9 @@ button#send.button-primary {
 }
 .switch-ios.switch-light > .toggleEFFect {
   background-color: #7747bf;
-  width: 50%;
 
+  width: 450px;
+  margin-right: -100px;
 
 }
 
@@ -275,22 +276,24 @@ button#cancel.button-disabled {
   color: white;
   cursor: pointer;
 }
-.TGButtons{
-  display: flex;
-  flex-direction: column;
+.switch-ios.switch-light, .properties{
+width: 100%;
 }
-label.switch-light{
+
+label.switch-ios.switch-light{
   position: relative;
   display: flex;
+
 }
 .properties{
 
 
   margin: 8px;
  width: 100%;
-  
-  font-weight: 400;
+flex:  1 1 70em;
+ font-weight: 400;
 }
+
 /* .toggleEFFect{ */
   /* display: inline-flex; */
   /* flex-direction: row; */
