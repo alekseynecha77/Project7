@@ -227,6 +227,7 @@ button#send.button-primary {
   line-height: 4;
   border: none;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .message-field {
@@ -304,23 +305,26 @@ flex:  1 1 70em;
 .SaveCancel{
   margin-bottom:10px;  
   text-align: center;
-  display: grid;
-  grid-template-columns: 2fr 2fr auto;
-  grid-gap: 10px;
-  margin-top: 70px;
-
+  display: flex;
+  flex-direction: row; 
 }
 .form-field {
 
   outline: none;
   margin: 3px;
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color: lightgrey;
   border-radius: 5px;
+  padding: 10px;
+  
 }
 #timezone {
   width: 98%;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding: 10px 10px 10px;
+}
+.switch-ios.switch-light{
+  margin-bottom: 24px;
 }
 /* MEDIA QUERIES1 */
 
@@ -521,7 +525,7 @@ flex:  1 1 70em;
   }
   #timezone {
     width: 98%;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   button#save.button-primary {
     border: none;
@@ -533,10 +537,9 @@ flex:  1 1 70em;
     cursor: pointer;
   }
   .SaveCancel {
-    display: block;
-    width: 100%;
-    margin-bottom: 30px;
-
+    display: flex;
+    flex-direction: row;
+width: auto;
   }
 
   button#cancel.button-disabled {
