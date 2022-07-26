@@ -343,6 +343,16 @@ border: none;
   .pointer {
     visibility: visible;
   }
+  .dot {
+    position: absolute;
+    display: flex;
+    transform: translateY(-60px);
+    padding: 3px;
+    background-color: #90ee90;
+    border-radius: 50%;
+    right: 200px;
+    margin-bottom: 5px;
+  }
   .nav {
     flex-direction: column;
   }
