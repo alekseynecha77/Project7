@@ -111,7 +111,17 @@ svg {
 top: 7px;  
 }
 
-
+.social-text{
+  padding-left:20px;
+}
+.amnt {
+  margin-left: 1.1rem;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: gray;
+  margin-top: -25px;
+  
+}
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -126,11 +136,12 @@ top: 7px;
   grid-area: header;
 }
 .social-stats {
-  text-align: center;
+padding-left: 10px;
 }
 .new-members {
-  text-align: center;
+  padding-left: 7px;
 }
+
 .widget-container-full,
 .widget-container-half {
   width: 100%;
@@ -200,7 +211,7 @@ top: 7px;
 }
 
 .social-image {
-  background-color: hsla(270, 28%, 55%, 0.625);
+  background-color: rgb(116,119,191);
   border-radius: 50%;
 }
 
@@ -211,11 +222,9 @@ top: 7px;
   border-radius: 10px;
   padding-bottom: 10px;
 }
-.activities {
-  text-align: center;
-}
+
 .activities h3 {
-  text-align: left;
+padding-left: 7px;
 }
 
 .alert-banner-close {
@@ -228,7 +237,7 @@ top: 7px;
 
 .new-members h3,
 .recent-members h3 {
-  text-align: left;
+padding-left: 5px;
 }
 .pointer {
   visibility: hidden;
@@ -352,6 +361,21 @@ border: none;
 .switch-ios.switch-light{
   margin-top: 31px;
 }
+.traffic h3{
+  padding-left: 5px;
+}
+.members-acctive{
+  text-align: center;
+}
+.members-container {
+  text-align: center;
+}
+.message h3{
+  padding-left: 7px;
+}
+.settings h3{
+  padding-left: 7px;
+}
 /* MEDIA QUERIES1 */
 
 @media (min-width: 768px) {
@@ -408,6 +432,9 @@ border: none;
     display: flex;
     flex-direction: column;
     height: auto;
+  }
+  .headline{
+    padding-left: 7px;
   }
 
   .traffic,
@@ -490,8 +517,8 @@ border: none;
 
   .new-members h3,
   .activity h3 {
-    text-align: left;
-  }
+padding-left: 7px; 
+ }
   .member-photo {
     width: 60px;
     height: 60px;
@@ -546,6 +573,12 @@ border: none;
     grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
+  }
+  .message h3{
+    padding-left: 7px;
+  }
+  .settings h3{
+    padding-left: 7px;
   }
   .message {
     border: 1px solid gray;
