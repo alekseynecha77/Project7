@@ -11,6 +11,7 @@ header {
   justify-content: space-between;
   background-color: rgb(95, 162, 216);
 }
+
 main {
   background-color: lightblue;
 }
@@ -115,11 +116,12 @@ top: 7px;
   padding-left:20px;
 }
 .amnt {
-  margin-left: 1.1rem;
+  margin-left: auto;
   font-size: 2.5rem;
   font-weight: lighter;
   color: gray;
-  margin-top: -25px;
+  margin-top:  -24px;
+  
   
 }
 .grid-container {
@@ -157,6 +159,7 @@ padding-left: 10px;
   margin-top: 16px;
   float: right;
 }
+
 
 /* The actual popup */
 
@@ -201,18 +204,20 @@ padding-left: 10px;
 }
 
 .social-container {
-  display: flex;
-  justify-content: left;
+  display: inline-flex;
   flex-direction: row;
   background-color: rgba(233, 229, 223, 0.492);
   flex-wrap: wrap;
   padding: 5px 25px 5px;
   margin: 10px;
+  width: 100%;
+  margin-left: auto;
 }
 
 .social-image {
   background-color: rgb(116,119,191);
   border-radius: 50%;
+  height: 50%;
 }
 
 #alert { 
@@ -413,11 +418,13 @@ border: none;
     margin: 5px 3px 5px;
     width: 100%;
     padding: 10px;
+    height: 45%;
   }
-  .social-cc {
-    display: flex;
-    justify-content: center;
-  }
+  /* .social-cc { */
+    /* display: inline-flex; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+  /* } */
 
   .members-container {
     display: inline-flex;
@@ -504,7 +511,15 @@ border: none;
   .new-members {
     line-height: 20px;
   }
-  
+  .social-image{
+    height: 45%;
+  }
+  .social-cc {
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: row;
+padding: 20px;
+  }
 }
 
 /* MEDIA QUERIES2 */
@@ -527,6 +542,9 @@ padding-left: 7px;
   .member-info,
   .pointer {
     font-size: 14px;
+  }
+  .social-image{
+    height: 85%;
   }
   /* .alert p { */
   /* display: grid; */
@@ -615,7 +633,11 @@ padding-left: 7px;
   .members-container {
     height: 100px;
   }
-
+  .social-cc {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+  }
   .MName,
   .member-info p,
   .pointer {
