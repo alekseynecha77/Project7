@@ -110,8 +110,15 @@ svg {
 #bell{
   position: relative;
 top: 7px;  
-}
 
+}
+.grow{
+  border-right: lightgray solid 1px;
+margin-top: 5px;
+margin-bottom: 10px;
+right: 20px;
+height: 65%;
+}
 .social-text{
   padding-left:20px;
 }
