@@ -596,7 +596,6 @@ padding-left: 7px;
     grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
-    border: 1px solid gray;
   }
 
   .grid-container {
@@ -629,9 +628,9 @@ padding-left: 7px;
   .settings h3{
     padding-left: 7px;
   }
-  .message {
-    border: 1px solid gray;
-  }
+ .message{
+  border-right: 1px solid black;
+ }
 
   button#save.button-primary {
     border: none;
