@@ -11,7 +11,8 @@ header{
   justify-content: space-between;
   background-color: rgb(95, 162, 216);
   white-space: nowrap;
-  font-size: 10px;
+  font-size: 11px;
+  align-items: center;
 }
 
 .TGButtons{
@@ -61,8 +62,8 @@ h1 {
 
 #profile-image {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: auto 0;
 }
 
@@ -94,13 +95,14 @@ h1 {
 
 .head {
   display: flex;
+  align-items: center;
 }
 
 .main {
   grid-area: main;
 }
 h5 {
-  margin: 40px;
+  margin: 30px;
 }
 
 svg {
@@ -122,9 +124,14 @@ svg {
 }
 #bell{
   position: relative;
-top: 10px;
-margin: -2px;  
-
+top: 5px;
+margin-left: 30px;
+}
+h5{
+  margin: 19px;
+}
+.header h2{
+  margin-left: 10px;
 }
 .grow{
   border-right: lightgray solid 1px;
@@ -161,9 +168,14 @@ height: 65%;
 .social-stats {
 padding: 10px;
 }
-.new-members {
+.new-members, .activities{
   padding: 10px;
+  text-align:center;
 }
+.new-members{
+  border-right: 1px solid black;
+}
+
 
 .widget-container-full,
 .widget-container-half {
@@ -398,7 +410,7 @@ border: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: rgba(213, 53, 53, 0.692) solid 1px;
+  border-bottom: black solid 1px;
   margin-top: 10px;
 }
 .message h3{
@@ -533,9 +545,9 @@ border: none;
     width: 100%;
     height: fit-content;
   }
-  .new-members {
-    line-height: 20px;
-  }
+  /* .new-members { */
+    /* line-height: 20px; */
+  /* } */
   .social-image{
     height: 45%;
   }
@@ -581,7 +593,7 @@ padding-left: 7px;
 
   .members-and-activities {
     display: grid;
-    grid-template-columns: 45% 1.5fr;
+    grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
     border: 1px solid gray;
