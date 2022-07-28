@@ -222,6 +222,7 @@ padding: 10px;
 }
 .member-photo {
   border-radius: 50%;
+  width: 20%;
 }
 
 .social-container {
@@ -372,8 +373,6 @@ border: none;
 .form-field {
 
   outline: none;
-  margin: 3px;
-  /* padding: 1rem; */
   background-color: lightgrey;
   border-radius: 5px;
   padding: 10px;
@@ -392,8 +391,15 @@ border: none;
 .members-acctive{
   text-align: center;
 }
-.members-container {
-  text-align: center;
+
+.members-container,
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: rgba(213, 53, 53, 0.692) solid 1px;
+  margin-top: 10px;
 }
 .message h3{
   padding-left: 7px;
@@ -448,7 +454,7 @@ border: none;
   .members-container {
     display: inline-flex;
     flex-direction: row;
-    background-color: rgba(233, 229, 223, 0.492);
+    /* background-color: rgba(233, 229, 223, 0.492); */
     flex-wrap: wrap;
     width: 100%;
     padding: 10px;
