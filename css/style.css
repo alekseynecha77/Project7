@@ -161,7 +161,9 @@ height: 65%;
     "navigation"
     " main";
 }
-
+p.MName{
+  text-align: center;
+}
 .main-container {
   grid-area: header;
 }
@@ -170,7 +172,6 @@ padding: 10px;
 }
 .new-members, .activities{
   padding: 10px;
-  text-align:center;
 }
 .new-members{
   border-right: 1px solid black;
@@ -234,7 +235,6 @@ padding: 10px;
 }
 .member-photo {
   border-radius: 50%;
-  width: 20%;
 }
 
 .social-container {
