@@ -170,9 +170,9 @@ p.MName{
 .social-stats {
 padding: 10px;
 }
-.new-members, .activities{
-  padding: 10px;
-}
+/* .new-members, .activities{ */
+  /* padding: 10px; */
+/* } */
 .new-members{
   border-right: 1px solid black;
 }
@@ -555,7 +555,7 @@ border: none;
     display:inline-flex;
     justify-content: center;
     flex-direction: row;
-padding: 20px;
+padding: 10px;
   }
 }
 
@@ -596,6 +596,7 @@ padding-left: 7px;
     grid-template-columns: 50% 1fr;
     gap: 10px;
     grid-auto-flow: column;
+    border: #333 solid 1px;
   }
 
   .grid-container {
@@ -660,9 +661,9 @@ padding-left: 7px;
     cursor: pointer;
 
   }
-  .members-container {
-    height: 100px;
-  }
+  /* .members-container { */
+    /* height: 100px; */
+  /* } */
   .social-cc {
     display:flex;
     justify-content: center;
