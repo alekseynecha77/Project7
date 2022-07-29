@@ -577,7 +577,6 @@ padding-left: 7px;
     
   }
   .members-container{
-    width: 628px;
     height: 91px;
   }
 
@@ -599,7 +598,6 @@ padding-left: 7px;
   .members-and-activities {
     display: grid;
     grid-template-columns: 50% 1fr;
-    gap: 10px;
     grid-auto-flow: column;
     border-top: #333 solid 1px;
   }
@@ -672,10 +670,10 @@ padding-left: 7px;
   /* .members-container { */
     /* height: 100px; */
   /* } */
-.member-photo .new-members .members-acctive{
-  width:44;
-  height:59;
-}
+/* .member-photo .new-members .members-acctive{ */
+  /* width:44; */
+  /* height:59; */
+/* } */
 
   .social-cc {
     display:flex;
