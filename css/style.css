@@ -14,7 +14,13 @@ header{
   font-size: 11px;
   align-items: center;
 }
-
+/* .IconsNAV{ */
+  /* fill:rgb(240, 243, 245) */
+/* } */
+/* .IconsNAV:hover{ */
+/*  */
+  /* fill:rgba(0, 0, 0, 0.2); */
+/* } */
 .TGButtons{
 margin-bottom: 30px;
 }

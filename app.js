@@ -1,6 +1,7 @@
 const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
+const saveLocal = document.getElementById('save')
 
 const popup = document.getElementById("popup");
 
@@ -29,3 +30,22 @@ else{
 }
 
 });
+
+const NavItems= document.getElementsByClassName('navigation');
+
+NavItems.addEventListener('click', ()=>{
+  for(let i = 0; i<= NavItems.length; i++){
+  if(NavItems.clicked){
+  NavItems.style.fill = "black";
+
+  }else{
+    NavItems.style.fill = "white";
+
+  }  
+  }
+
+
+})
+
+
+
