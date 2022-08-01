@@ -31,20 +31,63 @@ else{
 
 });
 
-const NavItems= document.getElementsByClassName('navigation');
+// document.querySelector('svg .IconsNAV').onclick = changeColor;
 
-NavItems.addEventListener('click', ()=>{
-  for(let i = 0; i<= NavItems.length; i++){
-  if(NavItems.clicked){
-  NavItems.style.fill = "black";
+// function changeColor(){
 
-  }else{
-    NavItems.style.fill = "white";
+//   document.style.fill = "black";
+//   return false;
+  
+// }
 
-  }  
+// const arr= [IconsNave];
+
+// const changeONclick = document.querySelector('svg #IconsNav');
+
+// changeONclick.addEventListener('click', function onClick() {
+//   changeONclick.style.fill = 'white';
+
+// })
+const btnHome = document.querySelector('#HomeIcon');
+const btnChart = document.querySelector('#ChartIcon');
+
+const btnMember = document.querySelector('#MembersIcon');
+
+const btnSetting = document.querySelector('#SettingIcon');
+
+
+btnHome.addEventListener('click', () => {
+  if(document.getElementById('HomeIcon').clicked == true){
+  btnHome.style.fill = "black";
+   } else{
+    btnHome.style.fill = "white";
+
   }
 
-
+})
+btnChart.addEventListener('click', () => {
+  if(document.getElementById('ChartIcon').clicked == true){
+    btnChart.style.fill = "black";
+     } else{
+      btnChart.style.fill = "white";
+  
+    }
+})
+btnMember.addEventListener('click', () => {
+  if(document.getElementById('MembersIcon').clicked == true){
+    btnMember.style.fill = "black";
+     } else{
+      btnMember.style.fill = "white";
+  
+    }
+})
+btnSetting.addEventListener('click', () => {
+  if(document.getElementById('SettingIcon').clicked == true){
+    btnSetting.style.fill = "black";
+     } else{
+      btnSetting.style.fill = "white";
+  
+    }
 })
 
 
