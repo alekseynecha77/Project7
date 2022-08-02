@@ -21,6 +21,25 @@ header{
 /*  */
   /* fill:rgba(0, 0, 0, 0.2); */
 /* } */
+.traffic-header{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+.traffic-list.traffic-nav{
+  display: inline-flex;
+  list-style: none;
+  margin-left: 11px;
+}
+#hour:hover,
+#day:hover,
+#week:hover,
+#month:hover {
+  background-color: rgb(32, 20, 63);
+  border-radius: 13px;
+  color: white;
+  transition: all .5s ease-in-out;
+}
 .TGButtons{
 margin-bottom: 30px;
 }

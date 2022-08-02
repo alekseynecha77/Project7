@@ -123,3 +123,107 @@ const mobileData = {
       //       yScale = chart.scales.y;
       //   }
          
+
+
+      const hour = document.getElementById('hour');
+      const day = document.getElementById('day');
+      const week = document.getElementById('week');
+      const month = document.getElementById('month');
+
+      hour.addEventListener('click', ()=>{
+         hour.className = 'active';
+         day.className = '';
+         week.className = '';
+         month.className = '';
+
+         trafficChart.data.datasets[0].data= [100, 200, 90, 120, 340, 220, 180, 380, 450, 400, 100];
+         trafficChart.data.labels = [
+            
+            "10am",
+            "11am",
+            "12pm",
+            "1pm",
+            "2pm",
+            "3pm",
+            "4pm",
+            "5pm",
+            "6pm",
+            "7pm",
+            "8pm",
+         ]
+         trafficChart.update();
+
+
+      })
+      day.addEventListener('click', ()=>{
+         hour.className = 'active';
+         day.className = '';
+         week.className = '';
+         month.className = '';
+
+         trafficChart.data.datasets[0].data= [200, 300, 400, 90, 220, 330, 440];
+         trafficChart.data.labels = [
+            
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+         ]
+         trafficChart.update();
+
+
+      })
+   
+      week.addEventListener('click', ()=>{
+         hour.className = 'active';
+         day.className = '';
+         week.className = '';
+         month.className = '';
+
+         trafficChart.data.datasets[0].data= [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500, 2500];
+         trafficChart.data.labels = [
+            "16-22",
+            "23-29",
+            "30-5",
+            "6-12",
+            "13-19",
+            "20-26",
+            "27-3",
+            "4-10",
+            "11-17",
+            "18-24",
+            "25-31",
+     
+         ]
+         trafficChart.update();
+
+
+      })
+      month.addEventListener('click', ()=>{
+         hour.className = 'active';
+         day.className = '';
+         week.className = '';
+         month.className = '';
+
+         trafficChart.data.datasets[0].data= [3000, 2000, 3500, 5000, 7000, 9000, 7500, 7000, 6000, 3000, 1500, 2500];
+         trafficChart.data.labels = [
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+     
+         ]
+         trafficChart.update();
+
+
+      })
