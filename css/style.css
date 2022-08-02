@@ -21,16 +21,19 @@ header{
 /*  */
   /* fill:rgba(0, 0, 0, 0.2); */
 /* } */
-.traffic-header{
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-}
-.traffic-list.traffic-nav{
-  display: inline-flex;
+/* .traffic-header{ */
+  /* display:flex; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
+  /*  */
+/* } */
+.traffic-list.traffic-nav li{
+  display: inline-block;
   list-style: none;
-  margin-left: 11px;
+  padding: 7px 3px 7px 3px;
+
 }
+
 #hour:hover,
 #day:hover,
 #week:hover,
@@ -39,6 +42,10 @@ header{
   border-radius: 13px;
   color: white;
   transition: all .5s ease-in-out;
+}
+.active{
+  background-color: rgb(53, 210, 32);
+  border-radius: 13px;
 }
 .TGButtons{
 margin-bottom: 30px;
@@ -402,11 +409,9 @@ flex:  1 1 70em;
   text-align: center;
   display: flex;
   flex-direction: row; 
-  margin-bottom: 10px;
-  width: 100%;
 line-height: 4;
 border: none;
-margin: 10px;
+padding: 1px 6px;
 }
 .form-field {
 
@@ -418,7 +423,8 @@ margin: 10px;
 }
 #timezone {
   width: 98%;
-  
+  margin-top: 46px;
+  margin-bottom: 10px  
 }
 .switch-ios.switch-light{
   margin-top: 31px;
@@ -660,6 +666,19 @@ padding-left: 7px;
  .message{
   border-right: 1px solid black;
  }
+ .traffic-header{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.traffic-list.traffic-nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 7px 3px 7px 3px;
+
+}
+
 
   button#save.button-primary {
     border: none;
