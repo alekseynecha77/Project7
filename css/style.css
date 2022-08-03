@@ -14,24 +14,20 @@ header{
   font-size: 11px;
   align-items: center;
 }
-/* .IconsNAV{ */
-  /* fill:rgb(240, 243, 245) */
-/* } */
-/* .IconsNAV:hover{ */
-/*  */
-  /* fill:rgba(0, 0, 0, 0.2); */
-/* } */
-/* .traffic-header{ */
-  /* display:flex; */
-  /* justify-content: flex-end; */
-  /* align-items: center; */
-  /*  */
-/* } */
-.traffic-list.traffic-nav li{
-  display: inline-block;
+
+.traffic-header{
+  display: block;
+  justify-content: space-between;
+  width: 100%;  
+}
+.traffic{
+  width: 100%;
+}
+.traffic-list.traffic-nav{
+
+  display: flex;
   list-style: none;
   padding: 7px 3px 7px 3px;
-
 }
 
 #hour:hover,
@@ -412,6 +408,7 @@ flex:  1 1 70em;
 line-height: 4;
 border: none;
 padding: 1px 6px;
+margin-bottom: 10px;
 }
 .form-field {
 
@@ -430,7 +427,7 @@ padding: 1px 6px;
   margin-top: 31px;
 }
 .traffic h3{
-  padding-left: 5px;
+  margin-right: auto;
 }
 .members-acctive{
   text-align: center;
@@ -673,7 +670,7 @@ padding-left: 7px;
   
 }
 .traffic-list.traffic-nav li{
-  display: inline-block;
+  display: inline-flex;
   list-style: none;
   padding: 7px 3px 7px 3px;
 
@@ -711,6 +708,13 @@ padding-left: 7px;
     cursor: pointer;
 
   }
+  .traffic-header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;  
+  }
+  
+
   /* .members-container { */
     /* height: 100px; */
   /* } */
