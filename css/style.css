@@ -27,8 +27,15 @@ header{
 
   display: flex;
   list-style: none;
-  padding: 7px 3px 7px 3px;
+  
 }
+ ul li{
+
+  padding : 0 10px 0 10px;
+  font-size: 20px;
+  }
+  
+  
 
 #hour:hover,
 #day:hover,
@@ -714,7 +721,11 @@ padding-left: 7px;
     width: 100%;  
   }
   
+  ul li{
 
+    padding : 0 10px 0 10px;
+    }
+    
   /* .members-container { */
     /* height: 100px; */
   /* } */
