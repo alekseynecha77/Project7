@@ -252,3 +252,30 @@ const mobileData = {
 
 
       })
+
+      let elements = document.querySelectorAll('.product-list')
+
+elements.forEach(el => {
+  el.addEventListener('click', () => {
+    elements.forEach(el => el.classList.remove('active'))
+    el.classList.add('active')
+//     if (document.querySelector('li .product-list').clicked == true){
+//       btnMember.style.fill = "black";
+
+//  } else{
+//   btnMember.style.fill = "white";
+
+// }
+
+if(document.querySelector('.product-list').clicked == true){
+   elements.classList.add('active');
+   elements.style.backgroundColor = 'green';
+}else{
+   
+   elements.classList.remove('active');
+
+
+}
+   })})
+
+

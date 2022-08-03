@@ -45,7 +45,7 @@ header{
 /* } */
 
 
-
+/*  */
 .product-list {
  
   display: inline-block;
@@ -54,13 +54,11 @@ header{
   cursor: pointer;
 }
 
-.product-list:hover {
-  background-color: blue;
-  color: #ffffff;
-}
 .active{
   background-color: #6fd649;
 }
+
+
 
 .TGButtons{
 margin-bottom: 30px;
