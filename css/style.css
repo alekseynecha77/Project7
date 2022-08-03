@@ -25,8 +25,8 @@ header{
 }
 .traffic-list.traffic-nav{
 
-  display: flex;
   list-style: none;
+  margin-right: 20px;
   
 }
  ul li{
@@ -37,19 +37,31 @@ header{
   
   
 
-#hour:hover,
-#day:hover,
-#week:hover,
-#month:hover {
-  background-color: rgb(32, 20, 63);
-  border-radius: 13px;
-  color: white;
-  transition: all .5s ease-in-out;
+/* #hour:hover { */
+  /* background-color: lightgreen;   */
+  /* border-radius: 13px; */
+  /* color: rgb(2, 2, 2); */
+  /* transition: all .5s ease-in-out; */
+/* } */
+
+
+
+.product-list {
+ 
+  display: inline-block;
+  border-radius: 4px;
+ 
+  cursor: pointer;
+}
+
+.product-list:hover {
+  background-color: blue;
+  color: #ffffff;
 }
 .active{
-  background-color: rgb(53, 210, 32);
-  border-radius: 13px;
+  background-color: #6fd649;
 }
+
 .TGButtons{
 margin-bottom: 30px;
 }
@@ -519,12 +531,14 @@ margin-bottom: 10px;
 
   .traffic,
   .mobile {
-
-    width: 98%;
+    width: 48%;
+    flex-wrap: wrap;
+    right: 20px;
     display: inline-flex;
     flex-direction: row;
     margin: 10px 5px 10px;
   }
+
 
   
   .member-info a {
