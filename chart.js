@@ -227,31 +227,7 @@ const mobileData = {
 
 
       })
-      year.addEventListener('click', ()=>{
-         hour.className = 'active';
-         day.className = '';
-         week.className = '';
-         month.className = '';
-
-         trafficChart.data.datasets[0].data= [3000, 2000, 3500, 5000, 7000, 9000, 7500, 7000, 6000, 3000, 1500, 2500];
-         trafficChart.data.labels = [
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023",
-            "2024",
-     
-         ]
-         trafficChart.update();
-
-
-      })
+  
 
       let elements = document.querySelectorAll('.product-list')
 
@@ -269,7 +245,6 @@ elements.forEach(el => {
 
 if(document.querySelector('.product-list').clicked == true){
    elements.classList.add('active');
-   elements.style.backgroundColor = 'green';
 }else{
    
    elements.classList.remove('active');
