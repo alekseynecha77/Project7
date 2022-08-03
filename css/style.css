@@ -519,13 +519,14 @@ margin-bottom: 10px;
 
   .traffic,
   .mobile {
-    width: 48%;
+
+    width: 95%;
     display: inline-flex;
     flex-direction: row;
     margin: 10px 5px 10px;
-    flex-wrap: wrap;
-    right: 20px;
   }
+
+  
   .member-info a {
     width: auto;
     display: flex;
@@ -555,10 +556,11 @@ margin-bottom: 10px;
     flex-direction: row;
   }
 
-  .traffic,
+
   .social {
     grid-column: 1 / span 2;
   }
+
 
   .daily,
   .members,
@@ -721,7 +723,7 @@ padding-left: 7px;
     width: 100%;  
   }
   
-  ul li{
+  .traffic-list .traffic-nav li{
 
     padding : 0 10px 0 10px;
     }
